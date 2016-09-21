@@ -18,6 +18,26 @@ K USB Charge
 F http://www.ti.com/lit/ds/symlink/bq24075.pdf
 $ENDCMP
 #
+$CMP BQ24295
+D I2C Controlled 3A Single Cell USB Charger with Adjustable Voltage and 1.5A OTG
+K usb battery charger otg i2c
+$ENDCMP
+#
+$CMP BQ24392
+D SPST USB 2.0 High-Speed Switch With Battery Charging Detection
+K battery charging detection usb switch
+$ENDCMP
+#
+$CMP BQ25504
+D Ultra Low Power Boost Converter with Battery Management for Energy Harvester
+K energy harvesting
+$ENDCMP
+#
+$CMP BQ27441-G1
+D System-Side Impedance Track™ Battery Fuel (Gas) Gauge
+K fuel gas gauge
+$ENDCMP
+#
 $CMP BQ76940
 D Lithium battery monitor, 9-15 cells, integrated balancing, I2C interface
 K lithium battery balance charge afe

@@ -1234,6 +1234,46 @@ K boost step-up DC/DC synchronous
 F www.ti.com/lit/ds/symlink/tps61200.pdf
 $ENDCMP
 #
+$CMP TPS61221
+D 200mA Tiny Low Input Voltage Boost Converter, Fixed Output 3.3V
+K boost converter
+$ENDCMP
+#
+$CMP TPS61232
+D High Efficiency Synchronous Step Up Converter With 5A Switch, Fixed Output 3.3V
+K synchronous step up converter
+$ENDCMP
+#
+$CMP TPS62065
+D 3MHz, 2A Step-Down Converter in 2x2 SON Package
+K step down converter
+$ENDCMP
+#
+$CMP TPS62140
+D 3–17V 2A Step-Down Converter with DCS-Control in 3x3 QFN package
+K step down converter
+$ENDCMP
+#
+$CMP TPS62140A
+D 3–17V 2A Step-Down Converter with DCS-Control in 3x3 QFN package
+K step down converter
+$ENDCMP
+#
+$CMP TPS62141
+D 3–17V 2A Step-Down Converter with DCS-Control in 3x3 QFN package, Fixed Output 1.8V
+K step down converter
+$ENDCMP
+#
+$CMP TPS62142
+D 3–17V 2A Step-Down Converter with DCS-Control in 3x3 QFN package, Fixed Output 3.3V
+K step down converter
+$ENDCMP
+#
+$CMP TPS62143
+D 3–17V 2A Step-Down Converter with DCS-Control in 3x3 QFN package, Fixed Output 5.0V
+K step down converter
+$ENDCMP
+#
 $CMP TPS62170
 D Step-Down Conveter, 0.5A, 3V-17V input, adjustable output
 K step-down dc-dc buck regulator
