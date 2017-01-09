@@ -422,6 +422,11 @@ D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
 $ENDCMP
 #
+$CMP Q_PMOS_GSDD
+D Transistor P-MOSFET, collector connected to mounting plane (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
 $CMP Q_PMOS_SDG
 D Transistor P-MOSFET (general)
 K pmos p-mos p-mosfet transistor
@@ -544,6 +549,11 @@ $ENDCMP
 #
 $CMP SPST
 D Interrupteur simple
+K switch
+$ENDCMP
+#
+$CMP SPST-5P
+D 5 pins SPST, N.O.
 K switch
 $ENDCMP
 #

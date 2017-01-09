@@ -210,6 +210,11 @@ K current sense amplifier shunt high side bidirectional
 F http://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf
 $ENDCMP
 #
+$CMP APDS-9960
+D Digital Proximity, Ambient Light, RGB and Gesture Sensor
+K proximity ambient light rgb color gesture
+$ENDCMP
+#
 $CMP AS5048A
 D Magnetic position sensor, 14-bit, PWM output, SPI Interface
 K sensor magnetic hall position rotation spi
@@ -324,6 +329,11 @@ K 3-Axis MEMS Gyroscope
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00036465.pdf
 $ENDCMP
 #
+$CMP LIS2DE12
+D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
+K 3-axis accelerometer spi mems
+$ENDCMP
+#
 $CMP LIS2DH
 D 3-Axis Accelerometer, 2/4/8/16g range, I2C/SPI interface
 K 3-axis accelerometer spi mems
@@ -396,30 +406,6 @@ K Thermocouple Converter
 F http://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/MAX31855.html#popuppdf
 $ENDCMP
 #
-$CMP MCP9700T-E/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-E/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/LT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
-$CMP MCP9700T-H/TT
-D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
-K temperature sensor thermistor
-F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
-$ENDCMP
-#
 $CMP MCP9700AT-E/LT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +125C, in SC-70-5 package
 K temperature sensor thermistor
@@ -440,6 +426,30 @@ $ENDCMP
 #
 $CMP MCP9700AT-H/TT
 D Low power, analog thermistor temperature sensor, 4C accuracy, -40C to +150C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-E/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +125C, in SOT-23-3 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/LT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SC-70-5 package
+K temperature sensor thermistor
+F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
+$ENDCMP
+#
+$CMP MCP9700T-H/TT
+D Low power, analog thermistor temperature sensor, 2C accuracy, -40C to +150C, in SOT-23-3 package
 K temperature sensor thermistor
 F http://ww1.microchip.com/downloads/en/DeviceDoc/21942e.pdf
 $ENDCMP
@@ -504,6 +514,16 @@ K absolute pressure sensor
 F http://www.nxp.com/files/sensors/doc/data_sheet/MPXA6115A.pdf
 $ENDCMP
 #
+$CMP TCS3472
+D Color light-to-digital converter with IR filter, I2C interface
+K color rgb light i2c
+$ENDCMP
+#
+$CMP TCS40DPR
+D Digital Output Magnetic Sensor
+K magnetic hall effect
+$ENDCMP
+#
 $CMP TLV493D
 D Low power 3D magnetic sensor, I2C interface, SOT23-6 package
 K magnetic field i2c
@@ -514,6 +534,11 @@ $CMP TMP411
 D - Remote and Local TEMPERATURE SENSOR
 K Temperature sensor remote local i2c
 F http://www.ti.com.cn/cn/lit/ds/symlink/tmp411.pdf
+$ENDCMP
+#
+$CMP TSMP58000
+D Carrier Out, IR Sensor Module for Remote Control Systems
+K ir remote
 $ENDCMP
 #
 $CMP ZXCT1009

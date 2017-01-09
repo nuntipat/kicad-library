@@ -66,6 +66,11 @@ K Audio Mono Filterless Class-D Amplifier
 F http://www.diodes.com/_files/datasheets/PAM8301.pdf
 $ENDCMP
 #
+$CMP PAM8302A
+D 2.5W Filterless Class-D Mono Audio Amplifier
+K class d amp
+$ENDCMP
+#
 $CMP PGA4311
 D 4 channels Audio Volume Control
 K AUDIO

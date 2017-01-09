@@ -12,6 +12,12 @@ K battery nickel cadmium metal hydride
 F http://www.ti.com.cn/cn/lit/ds/symlink/bq2003.pdf
 $ENDCMP
 #
+$CMP BQ24073
+D USB-Friendly Li-Ion Battery Charger and Power-Path Management
+K USB Charge
+F http://www.ti.com/lit/ds/symlink/bq24075.pdf
+$ENDCMP
+#
 $CMP BQ24075
 D USB-Friendly Li-Ion Battery Charger and Power-Path Management
 K USB Charge

@@ -1363,6 +1363,16 @@ K TPS62208DBV Step-Down DC-DC Converter SOT-23-5
 F http://www.ti.com/lit/ds/symlink/tps62201.pdf
 $ENDCMP
 #
+$CMP TPS63000
+D Adjustable output, High-efficient single inductor buck-boost converter with 1.8A switches
+K buck boost
+$ENDCMP
+#
+$CMP TPS63001
+D 3.3V, High-efficient single inductor buck-boost converter with 1.8A switches
+K buck boost
+$ENDCMP
+#
 $CMP TSR_1-2412
 D 1.2V 1A, step-down regulator, input range 4.6 - 36VDC, TO-220 compatible footprint, pin compatible with LMxx linear regulators, -40°C to +85°C
 K 1.2V 1A DC/DC TRACO TSR-1

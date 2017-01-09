@@ -6,6 +6,11 @@ K ESD Protection diodes transient suppressor
 F http://www.onsemi.com/pub_link/Collateral/CM1213A-D.PDF
 $ENDCMP
 #
+$CMP LC05111CMT
+D 1-Cell Lithium-Ion Battery Protection IC with integrated Power MOSFET
+K battery protection lithium-ion
+$ENDCMP
+#
 $CMP NCP45560
 D - Controlled Load Switch with Low Ron
 K load switch
