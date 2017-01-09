@@ -1234,6 +1234,11 @@ K boost step-up DC/DC synchronous
 F www.ti.com/lit/ds/symlink/tps61200.pdf
 $ENDCMP
 #
+$CMP TPS61220
+D 200mA Tiny Low Input Voltage Boost Converter
+K boost converter
+$ENDCMP
+#
 $CMP TPS61221
 D 200mA Tiny Low Input Voltage Boost Converter, Fixed Output 3.3V
 K boost converter
