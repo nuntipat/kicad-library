@@ -218,7 +218,7 @@ D Single Pole Single Throw (SPST) switch
 K switch lever
 $ENDCMP
 #
-$CMP SPST-5P
+$CMP SW_SPST_5P
 D Single Pole Single Throw (SPST) switch, 5 pins, generic
 K switch
 $ENDCMP
