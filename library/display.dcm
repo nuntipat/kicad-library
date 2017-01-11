@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 7SEG-2DIGITS-CA-IND
+D 7 Segments 2-digits common anode individual digit
+K 7 SEGMENTS
+F http://www.es.co.th/Schemetic/PDF/TOD-5261BE-B.PDF
+$ENDCMP
+#
 $CMP 7SEGM
 D Afficheur Leds 7 segments
 K DEV
