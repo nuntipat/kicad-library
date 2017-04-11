@@ -1614,6 +1614,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/Images/doc2543.pdf
 $ENDCMP
 #
+$CMP ATTINY2313A-MU
+D MLF-20, 2k Flash, 128B SRAM, 128B EEPROM
+K AVR 8bit Microcontroller tinyAVR
+F http://www.atmel.com/images/doc8246.pdf
+$ENDCMP
+#
 $CMP ATTINY2313A-PU
 D PDIP20, 2k Flash, 128B SRAM, 128B EEPROM
 K AVR 8bit Microcontroller tinyAVR
